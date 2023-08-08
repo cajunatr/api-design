@@ -1,4 +1,4 @@
-var sql = require('mssql/msnodesqlv8');
+var sql = require('mssql');
 const { decrypt } = require('./credentialsUtils')
 const dotenv = require('dotenv')
 
