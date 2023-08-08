@@ -1,4 +1,4 @@
-var sql = require('mssql');
+var sql = require('mssql/msnodesqlv8');
 const { decrypt } = require('./credentialsUtils')
 const dotenv = require('dotenv')
 
@@ -15,7 +15,6 @@ const config = {
   database: "Junkdrawer",
   user: username,
   password: password,
-  //driver: "msnodesqlv8",
   options:{
       trustedConnection:true,
   }
