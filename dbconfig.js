@@ -57,3 +57,11 @@ module.exports = {
     getData,
     main
 };
+
+
+main().then((results) => {
+  console.log(results)
+})
+  .catch((error) => {
+      console.log(error)
+  });
