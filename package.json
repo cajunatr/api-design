@@ -15,7 +15,6 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "msnodesqlv8": "^4.1.0",
     "mssql": "^9.1.1"
   }
 }
